@@ -1,0 +1,22 @@
+{
+  "name": "microfrontend",
+  "version": "1.0.0",
+  "main": "public/js/index.js",
+  "license": "MIT",
+  "scripts": {
+    "start": "nf start",
+    "build": "microbundle",
+    "dev": "microbundle watch",
+    "serve": "serve . --port 4200"
+  },
+  "devDependencies": {
+    "foreman": "^2.0.0",
+    "microbundle": "^0.2.4",
+    "prettier": "^1.9.2",
+    "serve": "^6.4.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rtorr/microfrontend.git"
+  }
+}
